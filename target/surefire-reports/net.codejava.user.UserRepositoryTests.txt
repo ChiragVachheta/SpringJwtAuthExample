@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.codejava.user.UserRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.309 s - in net.codejava.user.UserRepositoryTests
