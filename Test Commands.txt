@@ -1,8 +1,11 @@
+Save User Details using @Test code Execution
+URL: https://www.codejava.net/frameworks/spring-boot/spring-security-jwt-authentication-tutorial
 Create a product:
 curl -v -H "Content-Type: application/json" -d "{\"name\": \"Microsoft Surface\", \"price\": 1000}" localhost:8080/products
 
 List products:
 curl localhost:8080/products | json
+
 
 Login:
 
@@ -10,3 +13,12 @@ curl -v -H "Content-Type: application/json" -d "{\"email\":\"nam@codejava.net\",
 
 Access protected API:
 curl -v -H "Authorization: Bearer <token>" localhost:8080/products
+
+
+
+curl --location 'http://localhost:8080/auth/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email":"nam@codejava.net",
+    "password":"nam2020"
+}'
